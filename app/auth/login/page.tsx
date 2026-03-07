@@ -72,7 +72,7 @@ const Login = () => {
 				<div className="flex flex-wrap justify-center">
 					<div className="hidden  w-full xl:block xl:w-1/2">
 						<div className="px-10 flex flex-col items-center justify-center h-full text-center">
-							<Link href="#" className="flex justify-center bg-black">
+							<Link href="https://www.socratessinvestments.com/" className="flex justify-center bg-black">
 								<Image src={logo} alt="logo" height={80} width={80} />
 							</Link>
 							<div className="mt-16">
@@ -82,7 +82,7 @@ const Login = () => {
 					</div>
 					<div className="w-full  xl:w-1/2 ">
 						<div className="flex justify-center mb-8 xl:hidden">
-							<Link href="#" className="flex justify-center pl-7">
+							<Link href="https://www.socratessinvestments.com/" className="flex justify-center pl-7">
 								<Image src={logo} alt="logo" className="mx-auto" />
 							</Link>
 						</div>
