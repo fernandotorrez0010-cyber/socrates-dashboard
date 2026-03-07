@@ -151,7 +151,7 @@ export default function Signup() {
 								Create Account
 							</h2>
 							<p className="text-center opacity-40 font-bold mt-1 mb-8">
-								Universal Cryptosphere Trade
+								Socrates Investments
 							</p>
 
 							{error && (

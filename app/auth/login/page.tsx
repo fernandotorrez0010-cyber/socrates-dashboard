@@ -90,7 +90,7 @@ const Login = () => {
 							<h2 className="mb-2 text-center text-3xl font-bold text-black sm:text-title-xl2">
 								Sign In
 							</h2>
-							<p className="text-center opacity-40 font-bold">Universal Cryptosphere Trade</p>
+							<p className="text-center opacity-40 font-bold">Socrates Investments</p>
 
 							{error && (
 								<div className="border border-red-600 text-center p-3 my-5">

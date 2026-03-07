@@ -15,7 +15,7 @@ import { updatePassword } from "firebase/auth";
 import { auth } from "@/config/firebase";
 
 const metadata: Metadata = {
-	title: "User Settings | Universal Cryptosphere Trade Dashboard",
+	title: "User Settings | Socrates Investments Dashboard",
 	description: "This is User Settings Page",
 };
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "User Profile Page | Universal Cryptosphere Trade Dashboard",
+	title: "User Profile Page | Socrates Investments Trade Dashboard",
 	description: "Users Profile Page",
 	// other metadata
 };
