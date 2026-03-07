@@ -142,8 +142,8 @@ export default function Signup() {
 					</div>
 					<div className="w-full xl:w-1/2">
 						<div className="flex justify-center my-8 xl:hidden">
-							<Link href="https://www.socratessinvestments.com/" className="flex justify-center pl-7">
-								<Image src={logo} alt="logo" className="mx-auto" />
+							<Link href="https://www.socratessinvestments.com/" className="flex justify-center bg-black">
+								<Image src={logo} alt="logo" className="mx-auto" height={80} width={80} />
 							</Link>
 						</div>
 						<div className="w-full p-4 sm:p-12.5 xl:p-17.5">
@@ -258,7 +258,7 @@ export default function Signup() {
 												required
 												name="mobile"
 												onChange={handleInputChange}
-												placeholder="Mobile (Whatsapp Preferred)"
+												placeholder="Mobile"
 												className="w-full rounded-lg border border-stroke bg-transparent py-4 pl-6 pr-10 outline-none focus:border-primary focus-visible:shadow-none"
 											/>
 										</div>
