@@ -4,7 +4,7 @@ import Link from "next/link";
 import axios from "axios";
 import Image from "next/image";
 
-import logo from "public/images/logo/logo-green.svg";
+import logo from "public/images/logo/logo.png";
 import authImg from "public/images/auth/auth-screens.png";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import { useAuthContext } from "@/hooks/useAuthContext";
@@ -132,8 +132,8 @@ export default function Signup() {
 				<div className="flex flex-wrap justify-center">
 					<div className="hidden  w-full xl:block xl:w-1/2">
 						<div className="px-10 flex flex-col items-center justify-center h-full text-center">
-							<Link href="https://universalcryptosphere.com" className="flex justify-center">
-								<Image src={logo} alt="logo" height={60} />
+							<Link href="#" className="flex justify-center bg-black">
+								<Image src={logo} alt="logo" height={80} width={80} />
 							</Link>
 							<div className="mt-16">
 								<Image src={authImg} alt="authentication images" />
@@ -142,7 +142,7 @@ export default function Signup() {
 					</div>
 					<div className="w-full xl:w-1/2">
 						<div className="flex justify-center my-8 xl:hidden">
-							<Link href="https://universalcryptosphere.com" className="flex justify-center pl-7">
+							<Link href="#" className="flex justify-center pl-7">
 								<Image src={logo} alt="logo" className="mx-auto" />
 							</Link>
 						</div>
@@ -368,7 +368,7 @@ export default function Signup() {
 								<div className="mt-6 text-center">
 									<p>
 										Don’t have any account?{"  "}
-										<Link href="/auth/login" className="text-meta-3">
+										<Link href="/auth/login" className="text-orange-500">
 											Sign in
 										</Link>
 									</p>
