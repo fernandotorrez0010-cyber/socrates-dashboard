@@ -278,7 +278,7 @@ const Dashboard: React.FC = () => {
             <button
               type="submit"
               disabled
-              className="inline-flex w-full items-center justify-center rounded-md bg-meta-3 py-3 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+              className="inline-flex w-full items-center justify-center rounded-md bg-gold-orange py-3 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
             >
               Place Order
             </button>

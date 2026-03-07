@@ -151,7 +151,7 @@ export default function Deposits() {
 						<div className="flex justify-center gap-x-4 mt-8">
 							<button
 								onClick={handleAllowRemoveDeposit}
-								className="bg-meta-3 flex justify-center items-center text-white rounded-md font-medium px-8 py-2"
+								className="bg-gold-orange flex justify-center items-center text-white rounded-md font-medium px-8 py-2"
 								type="submit"
 							>
 								Yes
@@ -224,7 +224,7 @@ export default function Deposits() {
 										<td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
 											<button
 												onClick={() => handlePreviewImg(userHistory.screenshot)}
-												className="w-[110px] rounded-md  bg-meta-3 text-white py-2 px-3 flex items-center justify-center  gap-x-1"
+												className="w-[110px] rounded-md  bg-gold-orange text-white py-2 px-3 flex items-center justify-center  gap-x-1"
 											>
 												Preview <FaRegEyeSlash />
 											</button>

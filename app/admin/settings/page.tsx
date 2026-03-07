@@ -85,7 +85,7 @@ export default function AdminSettings() {
                   </div>
                   <div className="flex gap-4 mt-6">
                     <button
-                      className="flex justify-center rounded  text-white bg-meta-3 py-2 px-6 font-medium  hover:bg-opacity-95"
+                      className="flex justify-center rounded  text-white bg-gold-orange py-2 px-6 font-medium  hover:bg-opacity-95"
                       type="submit"
                     >
                       Update Payment Method
@@ -110,7 +110,7 @@ export default function AdminSettings() {
                           Password
                         </label>
                         <input
-                          className="w-full rounded border bg-transparent  bg-gray py-3 px-4  focus:border-meta3text-meta-3 focus-visible:outline-none"
+                          className="w-full rounded border bg-transparent  bg-gray py-3 px-4  focus:border-orange-500 text-orange-500 focus-visible:outline-none"
                           type="text"
                           name="password"
                           onChange={handlePasswordChange}
@@ -124,7 +124,7 @@ export default function AdminSettings() {
                           Confirm Password
                         </label>
                         <input
-                          className="w-full rounded border bg-transparent py-3 px-4  focus:border-meta3text-meta-3 focus-visible:outline-none"
+                          className="w-full rounded border bg-transparent py-3 px-4  focus:border-orange-500 text-orange-500 focus-visible:outline-none"
                           type="text"
                           name="confirmPassword"
                           onChange={handlePasswordChange}
@@ -136,7 +136,7 @@ export default function AdminSettings() {
 
                     <div className="flex">
                       <button
-                        className="flex justify-center rounded  text-white bg-meta-3 py-2 px-6 font-medium  hover:bg-opacity-95"
+                        className="flex justify-center rounded  text-white bg-gold-orange py-2 px-6 font-medium  hover:bg-opacity-95"
                         type="submit"
                       >
                         Change Password

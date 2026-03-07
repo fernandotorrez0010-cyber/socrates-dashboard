@@ -127,7 +127,7 @@ export default function Verification() {
 										<td className="border-b border-[#eee] py-5 px-4 dark:border-strokedark">
 											<button
 												onClick={() => handlePreviewImg(userItem.document)}
-												className="w-[110px] rounded-md  bg-meta-3 text-white py-2 px-3 flex items-center justify-center  gap-x-1"
+												className="w-[110px] rounded-md  bg-gold-orange text-white py-2 px-3 flex items-center justify-center  gap-x-1"
 											>
 												Preview <FaRegEyeSlash />
 											</button>

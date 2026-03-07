@@ -313,7 +313,7 @@ export default function Signup() {
 								<div className="mb-5">
 									<button
 										type="submit"
-										className="flex justify-center items-center gap-x-2 w-full cursor-pointer rounded-lg border border-meta-3 bg-meta-3 p-4 text-white transition hover:bg-opacity-90"
+										className="flex justify-center items-center gap-x-2 w-full cursor-pointer rounded-lg border border-gold-orange bg-gold-orange p-4 text-white transition hover:bg-opacity-90"
 									>
 										Create Account
 										{loading && (

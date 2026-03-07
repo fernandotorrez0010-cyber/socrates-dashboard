@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     if (admin === null || !admin.isAdmin) {
       router.push("/auth/login");
     }
-  }, []);
+  }, [router]);
 
   return (
     <html lang="en">

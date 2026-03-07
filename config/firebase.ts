@@ -8,12 +8,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: "AIzaSyDtp6qCdaxJDX-s14HoSQsJ2dKUt4EsBHc",
-	authDomain: "cryptosphere-trade.firebaseapp.com",
-	projectId: "cryptosphere-trade",
-	storageBucket: "cryptosphere-trade.appspot.com",
-	messagingSenderId: "543591832352",
-	appId: "1:543591832352:web:a46c673583497de57b1545",
+  apiKey: "AIzaSyA_jojIu4TiMABIENaC4gWn3MvaP-K5o4k",
+  authDomain: "socrates-dashboard.firebaseapp.com",
+  projectId: "socrates-dashboard",
+  storageBucket: "socrates-dashboard.firebasestorage.app",
+  messagingSenderId: "676382914344",
+  appId: "1:676382914344:web:b5cd185f6df09dc9b4421d"
 };
 
 // Initialize Firebase

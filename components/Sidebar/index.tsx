@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import logo from "public/images/logo/logo.svg";
+import logo from "public/images/logo/logo.png";
 import {
 	FaCheckCircle,
 	FaCompactDisc,
@@ -80,9 +80,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 			}`}
 		>
 			{/* <!-- SIDEBAR HEADER --> */}
-			<div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-				<Link href="/user">
-					<Image src={logo} alt="Logo" />
+			<div className="flex items-center justify-between gap-2 px-6 pt-5">
+				<Link href="/user" className="w-full mx-auto flex justify-center">
+					<Image src={logo} alt="Logo" height={100} width={100} />
 				</Link>
 
 				<button
@@ -111,7 +111,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
 			<div className="no-scrollbar flex flex-col overflow-y-auto duration-300 ease-linear">
 				{/* <!-- Sidebar Menu --> */}
-				<nav className="mt-5 py-4 px-4 lg:mt-9 lg:px-6">
+				<nav className="mt-5 py-4 px-4 lg:px-6">
 					{/* <!-- Menu Group --> */}
 					<div>
 						<h3 className="mb-4 ml-4 text-sm font-semibold text-bodydark2">MENU</h3>

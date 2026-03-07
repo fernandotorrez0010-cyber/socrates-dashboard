@@ -134,7 +134,7 @@ export default function Deposit() {
 
           <button
             type="submit"
-            className="inline-flex items-center justify-center rounded-md bg-meta-3 w-full py-3 px-10 text-center font-medium text-black hover:bg-opacity-90 lg:px-8 xl:px-10"
+            className="inline-flex items-center justify-center rounded-md bg-gold-orange w-full py-3 px-10 text-center font-medium text-black hover:bg-opacity-90 lg:px-8 xl:px-10"
           >
             Notify for Deposit
           </button>
@@ -151,7 +151,7 @@ export default function Deposit() {
               <input
                 type="text"
                 readOnly
-                value={admin.bitcoin}
+                value={admin?.bitcoin}
                 className="w-full rounded border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-meta-3 active:border-meta-3 disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-meta-3"
               />
             </div>
@@ -167,7 +167,7 @@ export default function Deposit() {
               <input
                 type="text"
                 readOnly
-                value={admin.ethereum}
+                value={admin?.ethereum}
                 className="w-full rounded border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-meta-3 active:border-meta-3 disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-meta-3"
               />
             </div>
@@ -175,7 +175,7 @@ export default function Deposit() {
         </div>
 
         <button
-          className="flex w-full justify-center rounded bg-meta-3 p-3 font-medium text-gray"
+          className="flex w-full justify-center rounded bg-gold-orange p-3 font-medium text-gray"
           onClick={() => setModalIsOpen(true)}
         >
           Notify Payment

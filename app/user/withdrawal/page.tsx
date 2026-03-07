@@ -197,7 +197,7 @@ export default function Withdrawal() {
 							</div>
 						)}
 
-						<button className="flex w-full justify-center rounded bg-meta-3 p-3 font-medium text-gray">
+						<button className="flex w-full justify-center rounded bg-gold-orange p-3 font-medium text-gray">
 							Withdraw
 						</button>
 					</div>

@@ -82,7 +82,7 @@ export default function Subscriptions() {
 						<div className="flex justify-center gap-x-4 mt-8">
 							<button
 								onClick={handleAllowTerminateSubscription}
-								className="bg-meta-3 flex justify-center items-center text-white rounded-md font-medium px-8 py-2"
+								className="bg-gold-orange flex justify-center items-center text-white rounded-md font-medium px-8 py-2"
 								type="submit"
 							>
 								Yes

@@ -124,19 +124,19 @@ const SubscriptionCard = ({
 					<h4 className="text-sm font-bold text-black dark:text-white mb-1">{plan}</h4>
 					<div>
 						<p className="text-sm font-medium block mb-2">
-							<span className="font-bold text-xl text-meta-3">${planAmount}</span> / Minimum
+							<span className="font-bold text-xl text-orange-500">${planAmount}</span> / Minimum
 						</p>
 						<p className="text-sm mb-2">High ROI After Trading Session</p>
 						<div className="flex gap-x-2 mb-2 items-center">
-							<FaCheckCircle className="text-meta-3" />
+							<FaCheckCircle className="text-orange-500" />
 							<p>7Days Duration</p>
 						</div>
 						<div className="flex gap-x-2 mb-2 items-center">
-							<FaCheckCircle className="text-meta-3" />
+							<FaCheckCircle className="text-orange-500" />
 							<p>{roi} ROI</p>
 						</div>
 						<div className="flex gap-x-2 items-center">
-							<FaCheckCircle className="text-meta-3" />
+							<FaCheckCircle className="text-orange-500" />
 							<p>24/7 Support</p>
 						</div>
 					</div>
@@ -153,7 +153,7 @@ const SubscriptionCard = ({
 
 					<button
 						onClick={handleClick}
-						className="inline-flex items-center justify-center rounded-md w-full bg-meta-3 py-3 px-6 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+						className="inline-flex items-center justify-center rounded-md w-full bg-gold-orange py-3 px-6 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
 					>
 						Subscribe To Plan
 					</button>

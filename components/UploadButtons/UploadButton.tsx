@@ -18,7 +18,7 @@ const UploadButton = ({ approveBtnClick, loading, btnText, userId, id }: Approve
 	return (
 		<button
 			onClick={handleClick}
-			className="w-[110px] rounded-md  bg-meta-3 text-white py-2 px-3 flex items-center justify-center  gap-x-2"
+			className="w-[110px] rounded-md  bg-gold-orange text-white py-2 px-3 flex items-center justify-center  gap-x-2"
 		>
 			{loading ? (
 				<Image src={loader} alt="loading icon" height={20} width={20} />
