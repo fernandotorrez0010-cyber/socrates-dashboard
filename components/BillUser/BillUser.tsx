@@ -3,7 +3,7 @@ export default function BillUser({ status }: { status: string }) {
     Pending: {
       title: "ACCOUNT PENDING",
       message:
-        "Something is currently wrong with your account, Please contact your Account manager to be able to regain full access on your personal trading account/portfolio",
+        "Your account is currently pending verification. Please contact your assigned Account Manager to complete the necessary steps and restore full access to your trading dashboard.\n \n Thank you for your cooperation.",
     },
     "Signal Fee": {
       title: "SIGNAL FEE CLEARANCE PENDING",
