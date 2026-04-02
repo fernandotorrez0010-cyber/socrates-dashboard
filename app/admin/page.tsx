@@ -1,4 +1,6 @@
 "use client";
+
+export const dynamic = 'force-static';
 // import { useAdminContext } from "@/hooks/useAdminContext";
 import { useAdminContext } from "@/hooks/useAdminContext";
 import Link from "next/link";
