@@ -8,12 +8,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA_jojIu4TiMABIENaC4gWn3MvaP-K5o4k",
-  authDomain: "socrates-dashboard.firebaseapp.com",
-  projectId: "socrates-dashboard",
-  storageBucket: "socrates-dashboard.firebasestorage.app",
-  messagingSenderId: "676382914344",
-  appId: "1:676382914344:web:b5cd185f6df09dc9b4421d"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
